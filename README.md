@@ -6,14 +6,19 @@ markdown
 # Clipwise
   
 ## Project Overview:
-You have created a UI website using Next.js (React framework), implementing key features such as:
+I have created a UI website using Next.js (React framework), implementing key features such as:
 
-Error Handling: Effective error management throughout the app.
-State Management: Utilizing appropriate techniques (e.g., React hooks, Context API, or third-party libraries) to manage state across components.
-ESLint and Best Coding Practices: Ensuring code quality and consistency using ESLint, while adhering to best practices like modularity, component reusability, and clean architecture.
-Tailwind CSS & ShadCN UI: Using Tailwind CSS along with ShadCN UI components to style the website based on a given Figma design.
-Embla Carousel with Autoplay: Leveraging the embla-carousel-autoplay plugin for creating a smooth, autoplaying carousel feature.
-SVGs: Incorporating SVGs for optimized, scalable graphics.
+1.  Error Handling: Effective error management throughout the app.
+
+2. State Management: Utilizing appropriate techniques (e.g., React hooks, Context API, or third-party libraries) to manage state across components.
+
+3. ESLint and Best Coding Practices: Ensuring code quality and consistency using ESLint, while adhering to best practices like modularity, component reusability, and clean architecture.
+
+4. Tailwind CSS & ShadCN UI: Using Tailwind CSS along with ShadCN UI components to style the website based on a given Figma design.
+
+5. Embla Carousel with Autoplay: Leveraging the embla-carousel-autoplay plugin for creating a smooth, autoplaying carousel feature.
+
+6. SVGs: Incorporating SVGs for optimized, scalable graphics.
 
 
 
