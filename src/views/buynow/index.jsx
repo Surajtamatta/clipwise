@@ -1,9 +1,9 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Buywarves from "@/svg/Buywarves";
+import Buywarves from "@/components/svg/Buywarves";
 import Image from "next/image";
 import { imagesdata } from "@/json/imagesdata";
-import HalfCircle from "@/svg/HalfCircle";
+import HalfCircle from "@/components/svg/HalfCircle";
 
 const BuyNow = () => {
   return (

@@ -6,7 +6,7 @@ import {
     NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
-import { CartIcon, LogoIcon } from "../../svg/Icons";
+import { CartIcon, LogoIcon } from "../svg/Icons";
 // import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Importing hamburger and close icons
 import { Text,X } from 'lucide-react';
 const Navbar = () => {

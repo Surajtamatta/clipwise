@@ -1,5 +1,5 @@
 import React from "react";
-import Herowaves from "../../svg/Herowaves";
+import Herowaves from "../../components/svg/Herowaves";
 import { Button } from "@/components/ui/button";
 import ImageSlide from "@/components/ImageSlider";
 import { Mouse,Triangle } from 'lucide-react';

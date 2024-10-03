@@ -20,59 +20,9 @@ import {
 const categories = ['All products', 'Accessories', 'Furniture', 'Electronics'];
 const sort = ['Price: Low to High', 'Price: High to Low', 'Name: A to Z', 'Name: Z to A'];
 
-const useParentSize = (elementRef) => {
-  const [size, setSize] = useState({ width: 500, height: 500 }); // Default size
-
-  useEffect(() => {
-    const updateSize = () => {
-      if (elementRef.current) {
-        const { clientWidth: width, clientHeight: height } = elementRef.current;
-        setSize({ width, height });
-      }
-    };
-
-    // Initial size calculation
-    updateSize();
-
-    // Update size on window resize
-    window.addEventListener("resize", updateSize);
-
-    // Cleanup event listener
-    return () => {
-      window.removeEventListener("resize", updateSize);
-    };
-  }, [elementRef]);
-
-  return size;
-};
 
 const Products = () => {
   const [filterCategory, setFilterCategory] = useState('All');  // Category filter
-
-  const elementRef = useRef(null);
-
-  const { width, height } = useParentSize(elementRef); // Calculate width & height based on parent
-  
-  // const aspect = width / height;
-  // const adjustedHeight = Math.ceil(width / aspect);
-
-  const [countcard, setcountCard] = useState(0); // Default size
-  // useEffect(() => {
-  //   const updateSize = () => {
-  //     if (elementRef.current) {
-  //       const { clientWidth: width} = elementRef.current;
-  //       const newWidth = clientWidth/315
-  //       setNoShowCard(newWidth);
-  //     }
-  //   };
-  //   updateSize();
-  //   window.addEventListener("resize", updateSize);
-  //   return () => {
-  //     window.removeEventListener("resize", updateSize);
-  //   };
-  // }, [elementRef]);
-
-
 
 
 
@@ -114,7 +64,7 @@ const Products = () => {
       </div>
 
       
-      <div   ref={elementRef} className="grid grid-cols-4 gap-4 gap-y-6 p-4">
+      <div  className="grid grid-cols-4 gap-4 gap-y-6 p-4">
             {
               imagesdata.map((image,index) => (
                 <Card key={index} className=" h-full w-full">
